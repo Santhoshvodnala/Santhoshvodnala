@@ -1,4 +1,5 @@
-<h1 align="center">I'm vodnala Santhosh</h1><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="36"/></h1>
+
+<h1 align="center">Hey there, I'm Vodnala Santhosh! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="36"/></h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=santhoshvodnala&label=Profile%20views&color=0e75b6&style=flat" alt="santhoshvodnala" /> </p>
