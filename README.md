@@ -9,8 +9,11 @@
 🚀 About Me
 
 Inventor. Engineer. Dreamer. Builder of the Impossible.
+
 I’m a Software Developer Intern at Infosys, focused on building innovative and impactful digital solutions.
+
 From full-stack development to CI/CD automation, I thrive on solving complex problems and building solutions that make a real difference. Some of my projects include:
+
 Web-Meet – a video conferencing platform with AI integration
 JobPortal – a platform connecting opportunities with talent
 FlimVault – a digital space for exploring and managing films
