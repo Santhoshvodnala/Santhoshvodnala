@@ -26,105 +26,96 @@ Always learning. Always building. The journey is just getting started.
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/vodnala-santhosh-8927a129b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vodnala-santhosh-8927a129b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" height="30" width="40" /></a>
 </p>
 
-<!-- Zig-zag animated icons: optimized for GitHub profile -->
+<!-- Zig-zag animated icons (smaller + neat circular style) -->
 <style>
-  /* Container */
   .tools {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px; /* tighter spacing */
-    align-items: center;
+    gap: 8px; /* compact spacing */
     justify-content: flex-start;
     padding: 6px 0;
   }
 
   .tool {
-    width: 40px;   /* smaller container */
-    height: 40px;
+    width: 36px;   /* smaller size */
+    height: 36px;
+    border-radius: 50%;
+    background: #ffffff15; /* subtle background */
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 4px;
-    border-radius: 8px;
-    background: rgba(255,255,255,0.03);
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
     transition: transform 200ms ease, box-shadow 200ms ease;
     --dir: 1;
     animation: zig 2.4s cubic-bezier(.43,.15,.08,.98) infinite;
   }
 
   .tool img {
-    width: 28px;  /* smaller icon */
-    height: 28px;
-    display: block;
+    width: 20px;   /* smaller icon */
+    height: 20px;
+    object-fit: contain;
   }
 
-  /* hover effect */
   .tool:hover {
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    transform: translateY(-3px) scale(1.06);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   }
 
-  /* Zig-zag keyframes */
+  /* Zig-zag animation */
   @keyframes zig {
     0%   { transform: translateY(0) translateX(0); }
-    25%  { transform: translateY(-4px) translateX(calc(var(--dir) * 4px)); }
-    50%  { transform: translateY(0) translateX(calc(var(--dir) * 8px)); }
-    75%  { transform: translateY(4px) translateX(calc(var(--dir) * 4px)); }
+    25%  { transform: translateY(-3px) translateX(calc(var(--dir) * 3px)); }
+    50%  { transform: translateY(0) translateX(calc(var(--dir) * 6px)); }
+    75%  { transform: translateY(3px) translateX(calc(var(--dir) * 3px)); }
     100% { transform: translateY(0) translateX(0); }
   }
 
   /* stagger animation */
-  .tool:nth-child(1)  { animation-delay: 0s;    --dir: 1; }
-  .tool:nth-child(2)  { animation-delay: 0.12s; --dir: -1; }
-  .tool:nth-child(3)  { animation-delay: 0.24s; --dir: 1; }
-  .tool:nth-child(4)  { animation-delay: 0.36s; --dir: -1; }
-  .tool:nth-child(5)  { animation-delay: 0.48s; --dir: 1; }
-  .tool:nth-child(6)  { animation-delay: 0.60s; --dir: -1; }
-  .tool:nth-child(7)  { animation-delay: 0.72s; --dir: 1; }
-  .tool:nth-child(8)  { animation-delay: 0.84s; --dir: -1; }
-  .tool:nth-child(9)  { animation-delay: 0.96s; --dir: 1; }
+  .tool:nth-child(1) { animation-delay: 0s;    --dir: 1; }
+  .tool:nth-child(2) { animation-delay: 0.12s; --dir: -1; }
+  .tool:nth-child(3) { animation-delay: 0.24s; --dir: 1; }
+  .tool:nth-child(4) { animation-delay: 0.36s; --dir: -1; }
+  .tool:nth-child(5) { animation-delay: 0.48s; --dir: 1; }
+  .tool:nth-child(6) { animation-delay: 0.60s; --dir: -1; }
+  .tool:nth-child(7) { animation-delay: 0.72s; --dir: 1; }
+  .tool:nth-child(8) { animation-delay: 0.84s; --dir: -1; }
+  .tool:nth-child(9) { animation-delay: 0.96s; --dir: 1; }
 
-  /* reduced motion */
   @media (prefers-reduced-motion: reduce) {
     .tool { animation: none; transform: none; }
-  }
-
-  /* responsive tweak */
-  @media (max-width: 520px) {
-    .tools { justify-content: center; gap: 6px; }
   }
 </style>
 
 <div class="tools" aria-label="Languages and Tools">
-  <a class="tool" href="https://www.cprogramming.com/" target="_blank" rel="noreferrer" title="C">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C language"/>
+  <a class="tool" href="https://www.cprogramming.com/" target="_blank" title="C">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C"/>
   </a>
-  <a class="tool" href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer" title="C++">
+  <a class="tool" href="https://www.w3schools.com/cpp/" target="_blank" title="C++">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
   </a>
-  <a class="tool" href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" title="CSS3">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3"/>
+  <a class="tool" href="https://www.w3schools.com/css/" target="_blank" title="CSS3">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3"/>
   </a>
-  <a class="tool" href="https://git-scm.com/" target="_blank" rel="noreferrer" title="Git">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git"/>
+  <a class="tool" href="https://git-scm.com/" target="_blank" title="Git">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git"/>
   </a>
-  <a class="tool" href="https://www.w3.org/html/" target="_blank" rel="noreferrer" title="HTML5">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5"/>
+  <a class="tool" href="https://www.w3.org/html/" target="_blank" title="HTML5">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5"/>
   </a>
-  <a class="tool" href="https://www.java.com" target="_blank" rel="noreferrer" title="Java">
+  <a class="tool" href="https://www.java.com" target="_blank" title="Java">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java"/>
   </a>
-  <a class="tool" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" title="JavaScript">
+  <a class="tool" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript"/>
   </a>
-  <a class="tool" href="https://www.mysql.com/" target="_blank" rel="noreferrer" title="MySQL">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL"/>
+  <a class="tool" href="https://www.mysql.com/" target="_blank" title="MySQL">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"/>
   </a>
-  <a class="tool" href="https://www.photoshop.com/en" target="_blank" rel="noreferrer" title="Photoshop">
+  <a class="tool" href="https://www.photoshop.com/en" target="_blank" title="Photoshop">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop"/>
   </a>
 </div>
+
 
 
 
