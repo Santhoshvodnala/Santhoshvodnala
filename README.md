@@ -6,17 +6,23 @@
 
 <p align="left"> <a href="https://twitter.com/vodnalasanthos3" target="blank"><img src="https://img.shields.io/twitter/follow/vodnalasanthos3?logo=twitter&style=for-the-badge" alt="vodnalasanthos3" /></a> </p>
 
-- 🔭 I’m currently working on **Java Script**
+🚀 About Me
 
-- 🌱 I’m currently learning **DSA & Web development**
+Inventor. Engineer. Dreamer. Builder of the Impossible.
 
-- 👨‍💻 All of my projects are available at [https://github.com/Santhoshvodnala](https://github.com/Santhoshvodnala)
+I’m a Software Developer Intern at Infosys, focused on building innovative and impactful digital solutions.
 
-- 💬 Ask me about **C,C++,JAVA,DSA.**
+From full-stack development to CI/CD automation, I thrive on solving complex problems and building solutions that make a real difference. Some of my projects include:
 
-- 📫 How to reach me **santhoshvodnala42@gmail.com**
+Web-Meet – a video conferencing platform with AI integration
 
-- ⚡ Fun fact **I'm Tough guy,Fight with bugs...**
+JobPortal – a platform connecting opportunities with talent
+
+FlimVault – a digital space for exploring and managing films
+
+Online Canteen Website – streamlining food ordering.
+
+Always learning. Always building. The journey is just getting started.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
