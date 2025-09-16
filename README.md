@@ -25,97 +25,52 @@ Always learning. Always building. The journey is just getting started.
 <a href="https://twitter.com/vodnalasanthos3" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="vodnalasanthos3" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/vodnala-santhosh-8927a129b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vodnala-santhosh-8927a129b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" height="30" width="40" /></a>
 </p>
+<h3 align="left">Languages and Tools:</h3>
 
-<!-- Zig-zag animated icons (smaller + neat circular style) -->
+<p align="left">
+  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40" style="animation: zigzag 2s infinite;"/>
+  </a>
+  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40" style="animation: zigzag 2s infinite 0.2s;"/>
+  </a>
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40" style="animation: zigzag 2s infinite 0.4s;"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40" style="animation: zigzag 2s infinite 0.6s;"/>
+  </a>
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40" style="animation: zigzag 2s infinite 0.8s;"/>
+  </a>
+  <a href="https://www.java.com" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40" style="animation: zigzag 2s infinite 1s;"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40" style="animation: zigzag 2s infinite 1.2s;"/>
+  </a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40" style="animation: zigzag 2s infinite 1.4s;"/>
+  </a>
+  <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop" width="40" height="40" style="animation: zigzag 2s infinite 1.6s;"/>
+  </a>
+</p>
+
+<!-- Animation keyframes -->
 <style>
-  .tools {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px; /* compact spacing */
-    justify-content: flex-start;
-    padding: 6px 0;
-  }
-
-  .tool {
-    width: 36px;   /* smaller size */
-    height: 36px;
-    border-radius: 50%;
-    background: #ffffff15; /* subtle background */
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12);
-    transition: transform 200ms ease, box-shadow 200ms ease;
-    --dir: 1;
-    animation: zig 2.4s cubic-bezier(.43,.15,.08,.98) infinite;
-  }
-
-  .tool img {
-    width: 20px;   /* smaller icon */
-    height: 20px;
-    object-fit: contain;
-  }
-
-  .tool:hover {
-    transform: translateY(-3px) scale(1.06);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  }
-
-  /* Zig-zag animation */
-  @keyframes zig {
-    0%   { transform: translateY(0) translateX(0); }
-    25%  { transform: translateY(-3px) translateX(calc(var(--dir) * 3px)); }
-    50%  { transform: translateY(0) translateX(calc(var(--dir) * 6px)); }
-    75%  { transform: translateY(3px) translateX(calc(var(--dir) * 3px)); }
-    100% { transform: translateY(0) translateX(0); }
-  }
-
-  /* stagger animation */
-  .tool:nth-child(1) { animation-delay: 0s;    --dir: 1; }
-  .tool:nth-child(2) { animation-delay: 0.12s; --dir: -1; }
-  .tool:nth-child(3) { animation-delay: 0.24s; --dir: 1; }
-  .tool:nth-child(4) { animation-delay: 0.36s; --dir: -1; }
-  .tool:nth-child(5) { animation-delay: 0.48s; --dir: 1; }
-  .tool:nth-child(6) { animation-delay: 0.60s; --dir: -1; }
-  .tool:nth-child(7) { animation-delay: 0.72s; --dir: 1; }
-  .tool:nth-child(8) { animation-delay: 0.84s; --dir: -1; }
-  .tool:nth-child(9) { animation-delay: 0.96s; --dir: 1; }
-
-  @media (prefers-reduced-motion: reduce) {
-    .tool { animation: none; transform: none; }
-  }
+@keyframes zigzag {
+  0%   { transform: translateY(0) translateX(0); }
+  25%  { transform: translateY(-5px) translateX(5px); }
+  50%  { transform: translateY(0) translateX(10px); }
+  75%  { transform: translateY(5px) translateX(5px); }
+  100% { transform: translateY(0) translateX(0); }
+}
 </style>
 
-<div class="tools" aria-label="Languages and Tools">
-  <a class="tool" href="https://www.cprogramming.com/" target="_blank" title="C">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C"/>
-  </a>
-  <a class="tool" href="https://www.w3schools.com/cpp/" target="_blank" title="C++">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
-  </a>
-  <a class="tool" href="https://www.w3schools.com/css/" target="_blank" title="CSS3">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3"/>
-  </a>
-  <a class="tool" href="https://git-scm.com/" target="_blank" title="Git">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git"/>
-  </a>
-  <a class="tool" href="https://www.w3.org/html/" target="_blank" title="HTML5">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5"/>
-  </a>
-  <a class="tool" href="https://www.java.com" target="_blank" title="Java">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java"/>
-  </a>
-  <a class="tool" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript"/>
-  </a>
-  <a class="tool" href="https://www.mysql.com/" target="_blank" title="MySQL">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"/>
-  </a>
-  <a class="tool" href="https://www.photoshop.com/en" target="_blank" title="Photoshop">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop"/>
-  </a>
-</div>
-
+<p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=santhoshvodnala&show_icons=true&locale=en&layout=compact" alt="santhoshvodnala" />
+</p>
 
 
 
