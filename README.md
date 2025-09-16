@@ -26,8 +26,118 @@ Always learning. Always building. The journey is just getting started.
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/vodnala-santhosh-8927a129b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/vodnala-santhosh-8927a129b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> </p>
+<!-- Zig-zag animated icons: paste into your HTML file -->
+<style>
+  /* Container */
+  .tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0;
+  }
+
+  .tool {
+    width: 56px;                /* container size (icon + padding) */
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.03); /* subtle card */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transition: transform 220ms ease, box-shadow 220ms ease;
+    /* direction multiplier for zig (1 or -1) */
+    --dir: 1;
+    /* animation control (delay and speed) */
+    animation: zig 2.6s cubic-bezier(.43,.15,.08,.98) infinite;
+  }
+
+  .tool img {
+    width: 40px;
+    height: 40px;
+    display: block;
+  }
+
+  /* hover push effect */
+  .tool:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+  }
+
+  /* Zig-zag keyframes: uses --dir to flip horizontal offset */
+  @keyframes zig {
+    0%   { transform: translateY(0) translateX(0); }
+    25%  { transform: translateY(calc(-6px)) translateX(calc(var(--dir) * 6px)); }
+    50%  { transform: translateY(0) translateX(calc(var(--dir) * 12px)); }
+    75%  { transform: translateY(calc(6px)) translateX(calc(var(--dir) * 6px)); }
+    100% { transform: translateY(0) translateX(0); }
+  }
+
+  /* Stagger different icons so motion is offset */
+  .tool:nth-child(1)  { animation-delay: 0s;    --dir: 1;  }
+  .tool:nth-child(2)  { animation-delay: 0.15s; --dir: -1; }
+  .tool:nth-child(3)  { animation-delay: 0.30s; --dir: 1;  }
+  .tool:nth-child(4)  { animation-delay: 0.45s; --dir: -1; }
+  .tool:nth-child(5)  { animation-delay: 0.60s; --dir: 1;  }
+  .tool:nth-child(6)  { animation-delay: 0.75s; --dir: -1; }
+  .tool:nth-child(7)  { animation-delay: 0.90s; --dir: 1;  }
+  .tool:nth-child(8)  { animation-delay: 1.05s; --dir: -1; }
+  .tool:nth-child(9)  { animation-delay: 1.20s; --dir: 1;  }
+  /* add more nth-child rules if you have more icons */
+
+  /* Respect user's motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    .tool { animation: none; transform: none; }
+  }
+
+  /* Responsive tweak: center on small screens */
+  @media (max-width: 520px) {
+    .tools { justify-content: center; gap: 10px; }
+  }
+</style>
+
+<!-- Your icons (kept URLs from your snippet) -->
+<div class="tools" aria-label="Languages and Tools">
+  <a class="tool" href="https://www.cprogramming.com/" target="_blank" rel="noreferrer" title="C">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C language"/>
+  </a>
+
+  <a class="tool" href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer" title="C++">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++"/>
+  </a>
+
+  <a class="tool" href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer" title="CSS3">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3"/>
+  </a>
+
+  <a class="tool" href="https://git-scm.com/" target="_blank" rel="noreferrer" title="Git">
+    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git"/>
+  </a>
+
+  <a class="tool" href="https://www.w3.org/html/" target="_blank" rel="noreferrer" title="HTML5">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5"/>
+  </a>
+
+  <a class="tool" href="https://www.java.com" target="_blank" rel="noreferrer" title="Java">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java"/>
+  </a>
+
+  <a class="tool" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer" title="JavaScript">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+  </a>
+
+  <a class="tool" href="https://www.mysql.com/" target="_blank" rel="noreferrer" title="MySQL">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL"/>
+  </a>
+
+  <a class="tool" href="https://www.photoshop.com/en" target="_blank" rel="noreferrer" title="Photoshop">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="Photoshop"/>
+  </a>
+</div>
+
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=santhoshvodnala&show_icons=true&locale=en&layout=compact" alt="santhoshvodnala" /></p>
 
